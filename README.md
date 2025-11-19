@@ -31,8 +31,16 @@ There are the following errors in the site:
 
 Fix the errors, and push your code to our github classroom.
 
-# Stuck? 
+# Debugging Process:
+1. Define symptoms (what, where, why)
+2. Identify related code (variables, elements, actions, etc. ) 
+3. Test solutions 
+
+# Stuck? Try these common fixes:
 - On installation? Try running the instruction again.
-- Try quitting and re-launching Visual Studio 
-- Look for patterns in the code around your error 
-- Try to reason through why a given element may be not rendering or rendering incorrectly. 
+- Try quitting and re-launching Visual Studio, or quitting your terminal sessions.
+- Check that you have saved your code file, and refreshed your page. 
+- Check for misspellings (especially in files or folders)
+
+
+

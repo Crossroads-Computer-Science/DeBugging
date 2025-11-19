@@ -8,14 +8,14 @@ As we did before with our flask website, we will need to create a virtual enviro
 
 Open the site in a new Visual Studio window
 Open the terminal and type the following to set up a virtual environment: 
-`python3 -m venv .venv
+>`python3 -m venv .venv`
 You should now have a .venv folder in your project. 
 
 In your terminal prompt lets activate the virtual environment: 
-`. .venv/bin/activate
+>`. .venv/bin/activate`
 
 and now finally, lets install flask, so we can run our site: 
-`pip install flask
+>`pip install flask`
 
 # Debugging Exercise: 
 

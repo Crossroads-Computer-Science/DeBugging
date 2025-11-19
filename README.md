@@ -18,6 +18,8 @@ In your terminal prompt lets activate the virtual environment:
 and now finally, lets install flask, so we can run our site: 
 >`pip install flask`
 
+Now try running the site by having Visual Studio run your app.py file. 
+
 # Debugging Exercise: 
 
 There are the following errors in the site: 
@@ -28,3 +30,9 @@ There are the following errors in the site:
 5. Contact page not showing 
 
 Fix the errors, and push your code to our github classroom.
+
+# Stuck? 
+- On installation? Try running the instruction again.
+- Try quitting and re-launching Visual Studio 
+- Look for patterns in the code around your error 
+- Try to reason through why a given element may be not rendering or rendering incorrectly. 

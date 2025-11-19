@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us - DeBugger{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="section">
+        <h2>Contact DeBugger</h2>
+        <p>Ready to debug your pest problems? Get in touch with us today for a free inspection and quote!</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div class="card">
+                <h3>📞 Phone</h3>
+                <p style="font-size: 1.2rem; margin-top: 1rem;">1-800-DEBUG-IT</p>
+                <p style="margin-top: 0.5rem;">(1-800-332-8448)</p>
+                <p style="margin-top: 1rem; color: #666;">Available 24/7 for emergencies</p>
+            </div>
+            
+            <div class="card">
+                <h3>📧 Email</h3>
+                <p style="font-size: 1.2rem; margin-top: 1rem;">info@debugger-pest.com</p>
+                <p style="margin-top: 1rem; color: #666;">We respond within 24 hours</p>
+            </div>
+            
+            <div class="card">
+                <h3>📍 Office</h3>
+                <p style="margin-top: 1rem;">123 Bug-Free Boulevard<br>
+                Pest Control City, PC 12345</p>
+                <p style="margin-top: 1rem; color: #666;">Open Monday-Friday, 8am-6pm</p>
+            </div>
+        </div>
+
+        <div class="contact-form" style="margin-top: 3rem;">
+            <h2 style="text-align: center; margin-bottom: 1.5rem;">Request a Free Quote</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="pest-type">Type of Pest</label>
+                    <input type="text" id="pest-type" name="pest-type" placeholder="e.g., Ants, Roaches, Mice, etc.">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required placeholder="Tell us about your pest problem..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+
+        <div style="margin-top: 3rem; text-align: center; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h2 style="margin-bottom: 1rem;">Emergency Service Available</h2>
+            <p>Have a pest emergency? Don't wait! Call us anytime, day or night, and we'll dispatch a technician to your location as soon as possible. We understand that pest problems can't always wait for business hours.</p>
+            <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: bold; color: #e74c3c;">24/7 Emergency Hotline: 1-800-DEBUG-IT</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

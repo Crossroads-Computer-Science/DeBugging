@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Our Services - DeBugger{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="section">
+        <h2>Our Services</h2>
+        <p>DeBugger offers comprehensive pest control solutions for residential and commercial properties. We handle all types of pests with professional-grade treatments and ongoing prevention plans.</p>
+        
+        <div class="cards">
+            <div class="card">
+                <h3> Ant Extermination</h3>
+                <img src="/static/images/ant.jpeg" alt="Ant Extermination">
+                <p>From tiny sugar ants to carpenter ants, we eliminate ant colonies at the source. Our treatments target the nest, not just the visible ants, ensuring long-term results.</p>
+            </div>
+            <div class="card">
+                <h3> Roach Control</h3>
+                <img src="/static/images/roaches.jpeg" alt="Roach Control">
+                <p>German, American, or Oriental roaches—we've seen them all. Our comprehensive roach elimination program includes treatment and prevention to keep them from returning.</p>
+            </div>
+            <div class="card">
+                <h3> Spider Removal</h3>
+                <img src="/static/images/spider.jpg" alt="Spider Removal">
+                <p>Whether you're dealing with common house spiders or more concerning species, we'll remove them safely and implement prevention measures to keep them out.</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 3rem; text-align: center; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h2 style="margin-bottom: 1rem;">Prevention Plans</h2>
+            <p style="text-align: left; max-width: 800px; margin: 0 auto;">
+                Don't wait for pests to become a problem! Our ongoing prevention plans keep your property protected year-round. We offer quarterly, bi-annual, and annual service plans tailored to your needs. Regular inspections and treatments ensure that pests never get a foothold in your home or business.
+            </p>
+            <a href="/contact" class="btn" style="margin-top: 1.5rem;">Get Started Today</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
